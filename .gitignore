@@ -1,0 +1,33 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+gen/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Logs
+logs
+*.log
+
+# Spring
+*.tmp
+application-secret.yml
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JAR отдельно (на случай, если вручную соберёте)
+*.jar
+!target/*.jar

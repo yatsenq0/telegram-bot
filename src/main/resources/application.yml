@@ -1,0 +1,21 @@
+# Настройки сервера
+server:
+  port: 8080
+
+# Конфигурация бота
+bot:
+  # Токен берётся из переменной окружения BOT_TOKEN
+  token: \${BOT_TOKEN}
+  # Username вашего бота в Telegram
+  username: student_helper_bot
+
+# Настройки логирования
+logging:
+  level:
+    # Уровень DEBUG для нашего пакета
+    com.example.telegrambot: DEBUG
+    # INFO для логов Telegram API
+    org.telegram.telegrambots: INFO
+  # Формат вывода в консоль
+  pattern:
+    console: "%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
